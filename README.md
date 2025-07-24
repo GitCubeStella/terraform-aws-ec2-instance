@@ -17,27 +17,41 @@ Dieses Projekt zeigt, wie du mit **Terraform** eine einfache, produktionsnahe In
 
 ## 🛠️ Setup
 
-1. 🔁 Repo klonen
-git clone https://github.com/GitCubeStella/terraform-aws-ec2-instance.git
-cd terraform-aws-ec2-instance
+1. 📦 Repository klonen:
 
-2. 🔑 Pfad zum SSH-Public-Key in main.tf anpassen:
-public_key = file("C:/Users/deinname/.ssh/id_rsa.pub") # Windows-Pfad anpassen
+   ```bash
+   git clone https://github.com/GitCubeStella/terraform-aws-ec2-instance.git
+   cd terraform-aws-ec2-instance
+🗝️ Pfad zum SSH-Public-Key in main.tf anpassen:
 
+hcl
+Kopieren
+Bearbeiten
+public_key = file("C:/Users/deinname/.ssh/id_rsa.pub")  # Windows-Pfad anpassen
+🧱 Terraform initialisieren:
 
-3. ⚙️ Terraform initialisieren
+bash
+Kopieren
+Bearbeiten
 terraform init
+🔍 Terraform-Plan anzeigen:
 
-4.🔍 Terraform Plan anzeigen
+bash
+Kopieren
+Bearbeiten
 terraform plan
+🚀 Infrastruktur provisionieren:
 
-
-🚀 Infrastruktur provisionieren
+bash
+Kopieren
+Bearbeiten
 terraform apply
+🧹 Aufräumen (optional):
 
-🧹 Infrastruktur aufräumen (optional)
+bash
+Kopieren
+Bearbeiten
 terraform destroy
-
 
 ## 📁 Projektstruktur
 
