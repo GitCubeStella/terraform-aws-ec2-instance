@@ -31,6 +31,7 @@ terraform init
 4.🔍 Terraform Plan anzeigen
 terraform plan
 
+
 🚀 Infrastruktur provisionieren
 terraform apply
 
