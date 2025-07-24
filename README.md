@@ -39,15 +39,17 @@ terraform apply
 terraform destroy
 
 
-📁 Projektstruktur
+## 📁 Projektstruktur
+
+```text
 .
 ├── main.tf               # Hauptkonfiguration
 ├── provider.tf           # AWS Provider-Setup
 ├── variables.tf          # Eingabevariablen
 ├── outputs.tf            # Output nach erfolgreichem Deploy
+├── terraform.tfvars      # Werte für Variablen
 ├── .gitignore            # Ausschluss unnötiger Dateien
 └── README.md             # Diese Datei hier 🫶
-
 
 📚 Lernziele
 ✅ Terraform-Grundlagen verstehen
