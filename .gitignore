@@ -1,0 +1,9 @@
+# .gitignore
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.pem
+*.key
+crash.log
+terraform.tfvars.json
