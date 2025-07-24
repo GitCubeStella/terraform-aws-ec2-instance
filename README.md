@@ -38,6 +38,7 @@ terraform apply
 🧹 Infrastruktur aufräumen (optional)
 terraform destroy
 
+
 📁 Projektstruktur
 .
 ├── main.tf               # Hauptkonfiguration
